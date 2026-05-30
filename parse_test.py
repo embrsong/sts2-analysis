@@ -51,5 +51,10 @@ print(cards_added)
 #   another way to get the final deck?
 #print(data["players"][0]["deck"])
 
+final_deck = []
+total_cards = len(data["players"][0]["deck"])
+for n in range(total_cards):
+    final_deck.append(data["players"][0]["deck"][n]["id"].split(".")[1])
 
+print(final_deck)
 
