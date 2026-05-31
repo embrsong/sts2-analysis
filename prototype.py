@@ -67,9 +67,7 @@ for i in range(len(data["map_point_history"])):
     for j in range(len(data["map_point_history"][i])):
         
         # if we are in an encounter we add it to our list
-        if data["map_point_history"][i][j]["rooms"][0]["room_type"]=="monster" or 
-        data["map_point_history"][i][j]["rooms"][0]["room_type"]=="elite" or 
-        data["map_point_history"][i][j]["rooms"][0]["room_type"]=="boss":
+        if data["map_point_history"][i][j]["rooms"][0]["room_type"]=="monster" or data["map_point_history"][i][j]["rooms"][0]["room_type"]=="elite" or data["map_point_history"][i][j]["rooms"][0]["room_type"]=="boss":
             
             # list for the potions used
             new_potions = []
