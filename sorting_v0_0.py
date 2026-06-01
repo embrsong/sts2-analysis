@@ -369,55 +369,55 @@ def update_encounter(encounter):
         
     elif encounter.name.split(".")[1]=="THE_INSATIABLE_BOSS":
         new_specific = Specific(encounter.deck, encounter.relics, encounter.potions_used, encounter.damage_taken)
-        INFESTED_PRISMS_ELITE.append(new_specific)
+        THE_INSATIABLE_BOSS.append(new_specific)
         
     elif encounter.name.split(".")[1]=="THE_KIN_BOSS":
         new_specific = Specific(encounter.deck, encounter.relics, encounter.potions_used, encounter.damage_taken)
-        INKLETS_NORMAL.append(new_specific)
+        THE_KIN_BOSS.append(new_specific)
         
     elif encounter.name.split(".")[1]=="THE_LOST_AND_FORGOTTEN_NORMAL":
         new_specific = Specific(encounter.deck, encounter.relics, encounter.potions_used, encounter.damage_taken)
-        KAISER_CRAB_BOSS.append(new_specific)
+        THE_LOST_AND_FORGOTTEN_NORMAL.append(new_specific)
         
     elif encounter.name.split(".")[1]=="THE_OBSCURA_NORMAL":
         new_specific = Specific(encounter.deck, encounter.relics, encounter.potions_used, encounter.damage_taken)
-        KNIGHTS_ELITE.append(new_specific)
+        THE_OBSCURA_NORMAL.append(new_specific)
         
     elif encounter.name.split(".")[1]=="THIEVING_HOPPER_WEAK":
         new_specific = Specific(encounter.deck, encounter.relics, encounter.potions_used, encounter.damage_taken)
-        KNOWLEDGE_DEMON_BOSS.append(new_specific)
+        THIEVING_HOPPER_WEAK.append(new_specific)
     
     elif encounter.name.split(".")[1]=="TOADPOLES_WEAK":
         new_specific = Specific(encounter.deck, encounter.relics, encounter.potions_used, encounter.damage_taken)
-        LAGAVULIN_MATRIARCH_BOSS.append(new_specific)
+        TOADPOLES_WEAK.append(new_specific)
         
     elif encounter.name.split(".")[1]=="TUNNELER_NORMAL":
         new_specific = Specific(encounter.deck, encounter.relics, encounter.potions_used, encounter.damage_taken)
-        LIVING_FOG_NORMAL.append(new_specific)
+        TUNNELER_NORMAL.append(new_specific)
         
     elif encounter.name.split(".")[1]=="TUNNELER_WEAK":
         new_specific = Specific(encounter.deck, encounter.relics, encounter.potions_used, encounter.damage_taken)
-        LOUSE_PROGENITOR_NORMAL.append(new_specific)
+        TUNNELER_WEAK.append(new_specific)
         
     elif encounter.name.split(".")[1]=="TURRET_OPERATOR_WEAK":
         new_specific = Specific(encounter.deck, encounter.relics, encounter.potions_used, encounter.damage_taken)
-        MAWLER_NORMAL.append(new_specific)
+        TURRET_OPERATOR_WEAK.append(new_specific)
         
     elif encounter.name.split(".")[1]=="TWO_TAILED_RATS_NORMAL":
         new_specific = Specific(encounter.deck, encounter.relics, encounter.potions_used, encounter.damage_taken)
-        MECHA_KNIGHT_ELITE.append(new_specific)
+        TWO_TAILED_RATS_NORMAL.append(new_specific)
         
     elif encounter.name.split(".")[1]=="VANTOM_BOSS":
         new_specific = Specific(encounter.deck, encounter.relics, encounter.potions_used, encounter.damage_taken)
-        MYTES_NORMAL.append(new_specific)
+        VANTOM_BOSS.append(new_specific)
         
     elif encounter.name.split(".")[1]=="VINE_SHAMBLER_NORMAL":
         new_specific = Specific(encounter.deck, encounter.relics, encounter.potions_used, encounter.damage_taken)
-        MECHA_KNIGHT_ELITE.append(new_specific)
+        VINE_SHAMBLER_NORMAL.append(new_specific)
         
     elif encounter.name.split(".")[1]=="WATERFALL_GIANT_BOSS":
         new_specific = Specific(encounter.deck, encounter.relics, encounter.potions_used, encounter.damage_taken)
-        MYTES_NORMAL.append(new_specific)
+        WATERFALL_GIANT_BOSS.append(new_specific)
         
 # function which updates specific encounters when given a 'sample' which is a list of runs which is itself a list of encounters
         
